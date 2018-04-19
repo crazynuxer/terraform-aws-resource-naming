@@ -34,7 +34,7 @@ Supported Resources
 * security_group
 * s3_bucket
 * sqs_queue
-
+* elb
 
 Contributing
 ------------

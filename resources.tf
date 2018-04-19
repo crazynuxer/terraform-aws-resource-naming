@@ -28,5 +28,6 @@ locals {
     "s3_bucket"             = 63  # https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html
     "security_group"        = 255 # https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateSecurityGroup.html
     "sqs_queue"             = 80  # https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_CreateQueue.html
+    "elb"                   = 32  # https://docs.aws.amazon.com/elasticloadbalancing/2012-06-01/APIReference/API_CreateLoadBalancer.html
   }
 }
